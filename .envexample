@@ -1,0 +1,2 @@
+DEBUG=False
+DJANGO_SETTINGS_MODULE=config.settings.base
