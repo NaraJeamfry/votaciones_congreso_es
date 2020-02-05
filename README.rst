@@ -10,11 +10,9 @@
 .. image:: https://img.shields.io/github/license/NaraJeamfry
            /votaciones_congreso_es?label=licencia
     :alt: Licencia del proyecto
-
 .. image:: https://img.shields.io/github/last-commit/NaraJeamfry
            /votaciones_congreso_es
     :alt: Último commit en Github
-
 .. image:: https://img.shields.io/badge/version-0.0.1-brightgreen
     :alt: Versión del proyecto
 
