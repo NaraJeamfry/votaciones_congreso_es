@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'legislaturas.apps.LegislaturasConfig',
     'diputados.apps.DiputadosConfig',
     'grupos.apps.GruposConfig',
+    'votaciones.apps.VotacionesConfig',
 ]
 
 MIDDLEWARE = [
