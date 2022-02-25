@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'colorfield',
     'congreso.apps.CongresoConfig',
     'legislaturas.apps.LegislaturasConfig',
     'diputados.apps.DiputadosConfig',

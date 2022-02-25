@@ -9,7 +9,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('grupos', '__first__'),
+        ('grupos', '0001_initial'),
         ('congreso', '0001_initial'),
     ]
 
