@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            width: 70%;
+            min-width: 536px;
+            margin: 100px auto 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg style="border: black solid 1px;" viewBox="0 0 {{ congreso.ancho_imagen_hemiciclo }} {{ congreso.alto_imagen_hemiciclo }}">
+            {% for asiento in congreso.asientos.all %}
+                <circle r="{{ congreso.radio_circulo_hemiciclo }}" cx="{{ asiento.posicion_x }}" cy="{{ asiento.posicion_y }}"
+                        fill="{{ asiento.color_ultimo_hemiciclo }}" style="z-index:5"></circle>
+                <text x="{{ asiento.posicion_x }}" y="{{ asiento.posicion_y }}" style="fill:#bbbbbb;z-index:10;">{{ asiento.num_asiento }}</text>
+            {% endfor %}
+        </svg>
+    </div>
+</body>
+</html>

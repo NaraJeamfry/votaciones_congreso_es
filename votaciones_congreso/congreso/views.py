@@ -1,3 +1,7 @@
+from congreso.models import Congreso
 from django.shortcuts import render
 
-# Create your views here.
+
+def hemiciclo(request):
+    congreso = Congreso.objects.last()
+    return render(request, 'congreso/hemiciclo.html', {'congreso': congreso})
